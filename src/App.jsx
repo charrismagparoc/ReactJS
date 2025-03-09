@@ -33,7 +33,7 @@ function App() {
   return (
     <div className={`app-container ${darkMode ? 'dark-mode' : ''}`}>
       <header>
-        <h1>Enhanced To-Do List</h1>
+        <h1>To-Do List</h1>
         <button 
           className="theme-toggle" 
           onClick={toggleDarkMode}
